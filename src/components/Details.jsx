@@ -17,7 +17,7 @@ const Details = () => {
     return (
         <div className='bg-deepWhite min-h-screen dark:text-white dark:bg-veryDarkBlue'>
             {country ? (<div className='sm:px-16 sm:py-10'>
-                <button onClick={() => navigate("/", { replace: true })} className='bg-white m-4 font-semibold px-7 py-1'>back</button>
+                <button onClick={() => navigate("/", { replace: true })} className='bg-white m-4 font-semibold px-7 py-1 dark:text-darkGray'>back</button>
                 <div className='my-6 sm:min-h-80 grid sm:grid-cols-[50%,50%]  '>
                     <img className='h-full w-full' src={`${country.flags.png}`} alt="" />
                     <div className='p-6 '>
